@@ -14,8 +14,4 @@ print(ilk *3)
 print(ilk+ilk+ilk)
 print(son+son+son)
 """print(ilk-son)"""
-"""Traceback (most recent call last):
-  File "C:/Users/ASUS/Desktop/ders2.py", line 15, in <module>
-    print(ilk-son)
-TypeError: unsupported operand type(s) for -: 'str' and 'str'
-(ıkı strıng bırbırınden cıkarmada verılecek hatadır)"""
+
