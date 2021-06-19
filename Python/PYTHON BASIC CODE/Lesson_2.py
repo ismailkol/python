@@ -1,9 +1,9 @@
-print('ENES KARALİ')
-print("ENES KARALİ")
-print('ENES\'İN ARABASI VAR')
+print('Ismail Kol')
+print("Ismail Kol")
 
-ilk="ENES"
-son="KARALİ"
+
+ilk="Ismail"
+son="Kol"
 
 
 """stringlerde sadece toplama ve carpma edılır burda carpma ıkı strıng carpması
