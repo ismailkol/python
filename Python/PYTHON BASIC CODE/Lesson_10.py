@@ -1,0 +1,40 @@
+# -*- coding: cp1254 -*-
+
+def kayit_olustur(isim1,soyisim1,isis1,sehir1):
+
+    isim1    = "Fýrat"
+    soyisim1 = "Özgül"
+    isis1   = "Ubuntu"
+    sehir1   = "Ýstanbul"
+
+    print("isim           : ", isim1)
+    print("soyisim        : ", soyisim1)
+    print("iþletim sistemi: ", isis1)
+    print("þehir          : ", sehir1)
+
+    print("-"*30)
+
+isim2    = "Mehmet"
+soyisim2 = "Öztaban"
+isis2   = "Debian"
+sehir2   = "Ankara"
+
+print("isim           : ", isim2)
+print("soyisim        : ", soyisim2)
+print("iþletim sistemi: ", isis2)
+print("þehir          : ", sehir2)
+
+print("-"*30)
+
+
+"""-----------------------------------------------------------------"""
+
+def sistem_bilgisi_göster():
+    import sys
+    print("\nSistemde kurulu Python'ýn;")
+    print("\tana sürüm numarasý:", sys.version_info.major)
+    print("\talt sürüm numarasý:", sys.version_info.minor)
+    print("\tminik sürüm numarasý:", sys.version_info.micro)
+
+    print("\nKullanýlan iþletim sisteminin;")
+    print("\tadý:", sys.platform)
