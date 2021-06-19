@@ -12,7 +12,7 @@ print(spam['name'])
 
 
 
-birthdays = {'ENES': 'Apr 1', 'Bob': 'Dec 12', 'Carol': 'Mar 4'}
+birthdays = {'Ismail': 'Apr 1', 'Bob': 'Dec 12', 'Carol': 'Mar 4'}
 while True: 
     print("ENTER A NAME: (blanck to get out)")
     name= input()
