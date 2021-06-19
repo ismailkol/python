@@ -1,5 +1,5 @@
-defkullanıcı= "EnesKARAL"
-defparola="trabzonrize6153"
+defkullanıcı= "IsmailKol"
+defparola="2356890167"
 
 
 while (True) :
