@@ -6,4 +6,4 @@ while True :
     if response == "exit":
         sys.exit()
 
-    print("karali" + response)
+    print("kol" + response)
