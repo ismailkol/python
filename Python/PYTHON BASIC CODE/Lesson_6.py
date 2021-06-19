@@ -1,27 +1,27 @@
-ktunote=float(input("Notunuzu giriniz:"))
+note=float(input("Notunuzu giriniz:"))
 
-if ktunote >= 90 :
+if note >= 90 :
     print("AA aldınız.")
-elif ktunote > 80 :
+elif note > 80 :
     print("AB aldınız.")
-elif ktunote > 70 :
+elif note > 70 :
     print("BB aldınız.")
-elif ktunote > 60 :
+elif note > 60 :
     print("BC aldınız.")
-elif ktunote > 50 :
+elif note > 50 :
     print("CC aldınız.")
-elif ktunote > 45 :
+elif note > 45 :
     print("CD aldınız.")
 else:
     print("Dersden başarısınız oldunuz.")
 
-butsorusu= input("Bütünleme sınavına girecekmısınız?")
+butSorusu= input("Bütünleme sınavına girecekmısınız?")
 
-if butsorusu == 'evet' :
+if butSorusu == 'evet' :
     print("Öğrenci işlerine başvurunuz.")
-if butsorusu == 'hayır' :
+if butSorusu == 'hayır' :
     print("Eğitim hayatınızda başarılar dileriz.")
-if butsorusu == ' ' :
+if butSorusu == ' ' :
     print("Soruyu cevaplamadınız sistemden atılacaksınız.\n Tekrar giriş yapınız.")
 
       
